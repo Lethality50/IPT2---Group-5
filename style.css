@@ -9,9 +9,6 @@ body {
 	padding: 0;
 	font-family: Arial, sans-serif;
 	color: #333;
-	background-color:#ffc107;
-	
-	
 }
 
 a {
@@ -23,19 +20,12 @@ a {
 
 header {
 	background-color: #1c1c1c;
-	color:red;
+	color: #fff;
 	padding: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	cursor: default;
-}
-footer{
-	background-color:#1c1c1c;
-	padding-bottom: 1px;
-	color: white;
-	padding-top: 1px;
 }
 
 header h1 {
@@ -68,71 +58,4 @@ nav a:hover {
 
 .container {
 	max-width: 800px;
-	margin: 10px;
-	
-
-}
-.button {
- background-color: red;
- border-radius:15px;
- color: white;
-padding: 5px 10px;
-box-shadow: rgba(0, 0, 0, 0.295) 3px 3px 5px;
-
-}
-.button:hover{
-	color: black;
-	
-	
-}
-.special {
-	position:relative;
-	top: 0px;
-	left: 10px;
-	cursor: default;
-	
-}
-.special2{
-	position:absolute;
-	top: 0px;
-	left:500px;
-	cursor: default;
-}
-
-.special3{
-	position:absolute;
-	top: 0px;
-	left:500px;
-	cursor: default;
-	
-}
-h3:hover{
-	font-size:20px;
-	transition: 0.5s;
-	font-weight: 600;
-}
-nav li:hover{
-	color:white;
-}
-.pics{
-	box-shadow: rgba(0, 0, 0, 0.384) 5px 5px 10px;
-	border-radius: 20px;
-	width:450px;
-	transition: 1s;
-	
-}
-.pics:hover{
-	width:470px;
-	transform: scale(1);
-}
-h2{
-	color: black;
-	font-weight: 800;
-	text-shadow: rgba(0, 0, 0, 0.219) 1px 2px 1px;
-}
-.special4{
-	position:absolute;
-	top: 0px;
-	left:1000px;
-	cursor: default;
-}
+	margin: 0 auto;
